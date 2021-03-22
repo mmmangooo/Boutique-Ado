@@ -30,14 +30,20 @@ body {
 }
 
 .shop-now-button {
-    background: black;
-    color: white;
+    background: #000;
+    color: #fff;
     min-width: 260px;
 }
 
 .btn-black {
-    background: black;
-    color: white;
+    background: #000;
+    color: #fff;
+}
+
+.btn-outline-black {
+    background: #fff;
+    color: #000 !important;
+    border: 1px solid #000;
 }
 
 .shop-now-button:hover,
@@ -47,7 +53,7 @@ body {
 .btn-black:active,
 .btn-black:focus {
     background: #222;
-    color: white;
+    color: #fff;
 }
 
 .text-black {
